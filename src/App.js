@@ -17,7 +17,7 @@ function App() {
     <div className="app">
       <h1>Hi there!</h1>
       {showParagraph && <p> THis is New!</p>}
-      <DemoOutput show=""https://github.com/chintan224/react-callback-starter
+      <DemoOutput show="false" />
       <Button onClick={toggleParagraphHandler}>Toggle Paragraph</Button>
       {console.log("App Running!!")}
     </div>
