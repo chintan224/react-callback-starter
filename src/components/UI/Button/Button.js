@@ -4,6 +4,7 @@ import classes from './Button.module.css';
 
 const Button = (props) => {
   return (
+    {console.log("button running");}
     <button
       type={props.type || 'button'}
       className={`${classes.button} ${props.className}`}
